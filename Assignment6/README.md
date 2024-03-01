@@ -11,22 +11,36 @@ This README provides an overview and equations related to backpropagation in a n
 ![Overall xlsi](asset/xlsi_view.png)
 
 #### Graph shows the loss convergence for different Learning rate
-LR : 0.1
+##### LR : 0.1
+
 ![Graph](asset/0_1_lr.png)
-LR : 0.2
+
+##### LR : 0.2
+
 ![Graph](asset/0_2_lr.png)
-LR : 0.5
+
+##### LR : 0.5
+
 ![Graph](asset/0_5_lr.png)
-LR : 0.8
+
+##### LR : 0.8
+
 ![Graph](asset/0_8_lr.png)
-LR : 1.0
+
+##### LR : 1.0
+
 ![Graph](asset/1_lr.png)
-LR : 2.0
+
+##### LR : 2.0
+
 ![Graph](asset/2_lr.png)
 
 
 
 ## Part-2
+
+### Train MNIST - Dataset
+
 In this assignment, we aim to train a neural network with fewer than 20,000 parameters while achieving a test accuracy greater than 99.4% on the MNIST dataset.
 
 The model consists of a series of convolutional layers followed by batch normalization, ReLU activation functions, max-pooling, and dropout layers to prevent overfitting.
@@ -36,10 +50,10 @@ After the convolutional layers, there is a global average pooling layer to reduc
 The model has a total of 14,522 parameters
 
 
+##### Total Parameter is less than 20,000 
 
-
-Total Parameter is less than 20,000 
 ![alt text](asset/parameter_log.png)
 
-This log shows the accuracy level for the last couple of epoch.
+##### This log shows the accuracy level for the last couple of epoch.
+
 ![alt text](asset/accuracy_log_mnist.png)
