@@ -7,6 +7,7 @@ And use depthwise convolution, dilation, stride and albumentation
 
 ### Model_1
 Target:
+
         -total RF must be more than 44  
         -one of the layers must use Dilated Convolution
         -one of the layers must use Depthwise Separable Convolution 
@@ -16,6 +17,7 @@ Target:
                         shiftScaleRotate,
                         coarseDropout (max_holes = 1, max_height=16px, max_width=16, min_holes = 1, min_height=16px, min_width=16px, fill_value=(mean of your dataset), mask_fill_value = None)
         -achieve 85% accuracy and Total Params to be less than 200k.
+        
 Results:
         Parameters: 194,120
         Best Training Accuracy: 77.00%
