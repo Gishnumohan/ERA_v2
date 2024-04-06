@@ -33,6 +33,7 @@ Target Accuracy: 90%
 
 ### Model Summary using Resnet Architecture
 
+
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
@@ -83,6 +84,7 @@ Forward/backward pass size (MB): 8.00
 Params size (MB): 25.07
 Estimated Total Size (MB): 33.09
 ----------------------------------------------------------------
+
 
 ### Train and Test Accuracy using batch size as 512 and number of epoch as 24
 
